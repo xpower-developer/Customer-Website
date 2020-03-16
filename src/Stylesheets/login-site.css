@@ -1,0 +1,14 @@
+.test {
+  background-color: #f00;
+}
+
+.center-div {
+  width: 300px;
+  top: 3vh;
+  left: calc(50% - 150px);
+  position: absolute;
+}
+
+.btn.btn-purple {
+  width: 90px;
+}

@@ -11,7 +11,7 @@ export default function Login() {
           <img src={Logo}></img>
         </div>
       </div>
-      <InputField labelText="USERNAME" labelName="Username" />
+      <InputField labelText="USERNAME" labelName="Email" />
       <InputField labelText="PASSWORD" labelName="Password" />
       <div className="row">
         <div className="col col-8">

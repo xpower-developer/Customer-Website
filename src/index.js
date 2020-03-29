@@ -5,6 +5,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Stylesheets/reusable.css";
+import "./Scripts/reusable.jsx";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 

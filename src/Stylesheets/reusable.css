@@ -53,12 +53,17 @@ input[type="password"] {
   border-bottom: #03d9f0 solid 2px;
   color: #03d9f0;
 }
+input[type="text"].fault,
+input[type="password"].fault {
+  border-bottom: #ff0000 solid 2px;
+}
 
 .progress {
   transform: rotate(-90deg);
 }
 
 .btn-purple {
+  font-size: 16pc;
   color: #fff !important;
   background-color: #2e2077;
   border-color: #2e2077;
@@ -121,4 +126,46 @@ input[type="password"] {
 }
 .btn-box.group-off i {
   color: var(--secondary);
+}
+
+/* ALERT */
+.alert-danger {
+  color: #fff;
+  background-color: #d9130744;
+  border-color: #d91307;
+}
+
+.side-bar {
+  width: 350px;
+  height: 100vh;
+}
+
+.card {
+  background-color: #35337c;
+  border: 0;
+  border-radius: 0.1rem;
+}
+.menu ul {
+  display: contents;
+}
+.menu ul li {
+  display: contents;
+}
+.menu ul li a {
+  display: block;
+  height: 50px;
+  border-radius: 0 10px 10px 0;
+  line-height: 50px;
+  text-align: center;
+  color: #888;
+}
+.menu ul li a.active {
+  background-color: #05034c;
+  display: block;
+  border-left: 12px solid #03d9f0;
+  height: 50px;
+  border-radius: 0 10px 10px 0;
+  line-height: 50px;
+  text-align: center;
+  color: #03d9f0;
 }

@@ -8,6 +8,10 @@
   left: calc(50% - 150px);
   position: absolute;
 }
+.center-div-wide {
+  width: 450px;
+  left: calc(50% - 225px);
+}
 
 .btn.btn-purple {
   width: 90px;
